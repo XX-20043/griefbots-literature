@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SurVis Literature Browser - Griefbots</title>
+    <script src="lib/d3.v3.min.js"></script>
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/d3pie.min.js"></script>
+    <script src="lib/crossfilter.min.js"></script>
+    <script src="lib/dc.min.js"></script>
+    <script src="lib/lodash.min.js"></script>
+    <link rel="stylesheet" href="lib/dc.css">
+    <script src="survis.js"></script>
+</head>
+<body>
+    <h1>Griefbots Literature Browser</h1>
+    <div id="vis"></div>
+    <script>
+        window.onload = function () {
+            survis.loadData("data/survis_griefbots_dataset.json");
+        };
+    </script>
+</body>
+</html>
+    
